@@ -1,5 +1,5 @@
 import React from 'react';
-import Example, { Ghost, Empty, Error } from '../';
+import Example, { Ghost, Empty, Error } from '..';
 import {render} from '@testing-library/react'
 
 test('Example > Ghost matches snapshot', () => {
