@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "jpoissonnier.vscode-styled-components",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode"
+  ]
+}

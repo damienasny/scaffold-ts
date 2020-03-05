@@ -12,7 +12,8 @@
     "start": "webpack-dev-server",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "lint:css":"stylelint './src/**/*.tsx'"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
@@ -39,6 +40,10 @@
     "prettier": "1.19.1",
     "react-docgen-typescript-loader": "^3.6.0",
     "sass-loader": "^8.0.2",
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
