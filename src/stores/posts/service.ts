@@ -1,8 +1,10 @@
-import { Post } from ".";
+import { Post } from '.';
 
 export class PostsService {
     public getPosts(): Promise<Post[]> {
-        return fetch('https://jsonplaceholder.typicode.com/posts').then(res => res.json());
+        return fetch('https://jsonplaceholder.typicode.com/posts').then(res =>
+            res.json()
+        );
     }
 }
 
