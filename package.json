@@ -13,7 +13,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "lint:css":"stylelint './src/**/*.tsx'"
+    "lint:css": "stylelint './src/**/*.tsx'"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
