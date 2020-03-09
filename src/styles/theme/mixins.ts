@@ -8,3 +8,5 @@ export const alpha = () => css`
 export const mixins = {
     alpha,
 };
+
+export type Mixins = typeof mixins;

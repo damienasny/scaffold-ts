@@ -3,6 +3,7 @@ import { Post } from './stores/posts';
 import DefaultLayout from './templates/layouts/default';
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
+import { GlobalStyle } from './styles/GlobalStyle';
 
 export type AppProps = {
     posts: Post[];
@@ -26,6 +27,7 @@ export const App: SFC<AppProps> = props => {
 
     return (
         <ThemeProvider theme={theme}>
+            <GlobalStyle />
             <DefaultLayout title="Home">
                 <Block>
                     <p>Hello</p>

@@ -1,14 +1,13 @@
 import { DefaultTheme } from 'styled-components';
 import { mixins } from './mixins';
+import { fonts } from './fonts';
+import { colors } from './colors';
+import { abstract } from './abstract';
 
 const theme: DefaultTheme = {
-    borderRadius: '5px',
-
-    colors: {
-        main: 'cyan',
-        secondary: 'magenta',
-    },
-
+    abstract,
+    colors,
+    fonts,
     mixins,
 };
 
